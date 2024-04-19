@@ -23,7 +23,7 @@ st.markdown(
          f"""
          <style>
          .stApp {{
-             background-image: url("https://4.bp.blogspot.com/-F6aZF5PMwBQ/Wrj5h204qxI/AAAAAAAABao/4QLn48RP3x0P8Ry0CcktxilJqRfv1IfcACLcBGAs/s1600/GURU%2BEDITZ%2Bbackground.jpg");
+             background-color: green;
              background-attachment: fixed;
              background-size: cover
          }}
