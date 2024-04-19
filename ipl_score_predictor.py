@@ -4,7 +4,7 @@ import math
 import numpy as np
 import pickle
 import streamlit as st
-
+import sklearn
 #SET PAGE WIDE
 st.set_page_config(page_title='IPL_Score_Predictor',layout="centered")
 
