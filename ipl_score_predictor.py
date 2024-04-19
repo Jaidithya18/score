@@ -6,7 +6,7 @@ import pickle
 import streamlit as st
 
 #SET PAGE WIDE
-st.set_page_config(page_title='IPL_Score_Predictor',layout="centered")
+st.set_page_config(page_title='Predictor-Model',layout="centered")
 
 #Get the ML model 
 
@@ -15,7 +15,7 @@ model = pickle.load(open(filename,'rb'))
 
 #Title of the page with CSS
 
-st.markdown("<h1 style='text-align: center; color: white;'> IPL Score Predictor 2024 </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'> Score Predictor </h1>", unsafe_allow_html=True)
 
 #Add background image
 
@@ -23,7 +23,7 @@ st.markdown(
          f"""
          <style>
          .stApp {{
-             background-color: green;
+             background-color:0FAEB0;
              background-attachment: fixed;
              background-size: cover
          }}
