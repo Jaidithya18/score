@@ -23,7 +23,7 @@ st.markdown(
          f"""
          <style>
          .stApp {{
-             background-color:0FAEB0;
+             background-color:green;
              background-attachment: fixed;
              background-size: cover
          }}
